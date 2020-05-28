@@ -23,9 +23,6 @@ function draw() {
   }
 
   var color = "white";
-  if(keyCode === UP_ARROW){
-    color = "lightskyblue";
-  }
 
   stroke(color);
   strokeWeight(10);
